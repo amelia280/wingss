@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wingss/static/css/main.a088d3c1.css",
+    "main.js": "/wingss/static/js/main.125617c5.js",
+    "index.html": "/wingss/index.html",
+    "main.a088d3c1.css.map": "/wingss/static/css/main.a088d3c1.css.map",
+    "main.125617c5.js.map": "/wingss/static/js/main.125617c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a088d3c1.css",
+    "static/js/main.125617c5.js"
+  ]
+}
