@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Get the current path
+      var redirectTo = window.location.pathname.replace('/wings-cafe-inventory', '');
+      // Always go back to index.html, but keep the path in search
+      window.location.replace('/wings-cafe-inventory/?path=' + redirectTo);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>

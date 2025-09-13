@@ -1,0 +1,92 @@
+ body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6fc;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2457e3;
+  padding: 1rem 2rem;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header .manager {
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 15px;
+}
+
+.navbar button {
+  background-color: white;
+  border: 2px solid #2457e3;
+  color: #2457e3;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.navbar button:hover {
+  background-color: #2457e3;
+  color: white;
+}
+
+.dashboard {
+ text-align: center;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* ---------- nav bar with same buttons ---------- */
+.nav{display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#fff;
+  padding:10px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  margin:1.5rem 2rem}
+
+.nav-left{display:flex;gap:.5rem}
+.nav-right{display:flex;align-items:center;
+  gap:1rem}
+
+.nav-btn{background:transparent 1px solid #e5e7f0;
+  color:var(--text);
+  padding:.5rem 1rem;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:500;transition:.2s} 
+
+.nav-btn:hover{background:var(--primary);
+  color:#fff;border-color:var(--primary)}
